@@ -1,0 +1,194 @@
+[
+{
+  "model": "flatpages.flatpage",
+  "pk": 1,
+  "fields": {
+    "url": "/ueber-uns/",
+    "title": "Über uns",
+    "content": "",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 2,
+  "fields": {
+    "url": "/jobs/",
+    "title": "Stellenangebote",
+    "content": "",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 3,
+  "fields": {
+    "url": "/presse/",
+    "title": "Presse",
+    "content": "",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 4,
+  "fields": {
+    "url": "/kontakt/",
+    "title": "Kontakt",
+    "content": "",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 5,
+  "fields": {
+    "url": "/impressum/",
+    "title": "Impressum",
+    "content": "",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 6,
+  "fields": {
+    "url": "/agb/",
+    "title": "AGB",
+    "content": "",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 7,
+  "fields": {
+    "url": "/datenschutz/",
+    "title": "Datenschutz",
+    "content": "",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 8,
+  "fields": {
+    "url": "/widerrufsrecht/",
+    "title": "Widerruf",
+    "content": "",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 1,
+  "fields": {
+    "flatpage": 6,
+    "category": 2,
+    "priority": 3
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 2,
+  "fields": {
+    "flatpage": 7,
+    "category": 2,
+    "priority": 4
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 3,
+  "fields": {
+    "flatpage": 5,
+    "category": 2,
+    "priority": 2
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 4,
+  "fields": {
+    "flatpage": 2,
+    "category": 1,
+    "priority": 2
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 5,
+  "fields": {
+    "flatpage": 4,
+    "category": 2,
+    "priority": 1
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 6,
+  "fields": {
+    "flatpage": 3,
+    "category": 1,
+    "priority": 3
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 7,
+  "fields": {
+    "flatpage": 1,
+    "category": 1,
+    "priority": 1
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 8,
+  "fields": {
+    "flatpage": 8,
+    "category": 2,
+    "priority": 5
+  }
+}
+]
