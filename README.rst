@@ -26,6 +26,7 @@ Install using pip:
 
 
 You need to load both, advanced and original pages because this package uses onetoone field to enhance the original Django Flatpages app:
+
 .. code-block:: python
 
    # settings.py
@@ -40,8 +41,9 @@ You need to load both, advanced and original pages because this package uses one
 You can pass the pages to the template like this:
 
 .. code-block:: python
-	from pages.models import Page, Category
-	'pages': {
-	    'company': Page.objects.filter(category=Category.COMPANY),
-	    'legal': Page.objects.filter(category=Category.LEGAL),
-	},
+
+   from pages.models import Page, Category
+   'pages': {
+      'company': Page.objects.filter(category=Category.COMPANY),
+      'legal': Page.objects.filter(category=Category.LEGAL),
+   },
