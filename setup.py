@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from setuptools import find_packages, setup
-from oscar_product_tables import __version__
+from pages import __version__
 
 
 install_requires = [
