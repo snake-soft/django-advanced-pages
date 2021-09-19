@@ -1,1 +1,3 @@
-__version__ = '0.8.0'
+import pkg_resources
+
+__version__ = pkg_resources.get_distribution('django-advanced-pages').version

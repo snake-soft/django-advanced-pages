@@ -1,3 +1,6 @@
 [run]
 source = pages
 omit = *migrations*
+
+[report]
+show_missing = True

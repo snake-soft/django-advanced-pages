@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from setuptools import find_packages, setup
-from pages import __version__
 
 
 install_requires = [
@@ -12,7 +11,7 @@ tests_require = [
 
 setup(
     name='django-advanced-pages',
-    version=__version__,
+    version='0.8.1',
     author="Snake-Soft",
     author_email="info@snake-soft.com",
     description="Django flatpages with advanced features",

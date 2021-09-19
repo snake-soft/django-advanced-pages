@@ -1,0 +1,6 @@
+engines:
+  pylint:
+    enabled: true
+    plugins:
+      - django
+    django_settings_module: tests.settings
