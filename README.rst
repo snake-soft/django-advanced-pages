@@ -2,6 +2,9 @@
    :target: https://codeclimate.com/github/snake-soft/django-advanced-pages/maintainability
    :alt: Maintainability
 
+.. image:: https://codecov.io/gh/snake-soft/django-advanced-pages/branch/main/graph/badge.svg?token=X9MJQJBAEH
+   :target: https://codecov.io/gh/snake-soft/django-advanced-pages
+    
 =====================
 Django advanced pages
 =====================
