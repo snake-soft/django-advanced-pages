@@ -29,3 +29,15 @@ jobs:
         pip install "django~=${{ matrix.django-version }}.0"
     - name: Run Tests
       run: python tests/manage.py test
+
+  coverage:
+    name: Coverage
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test & publish code coverage
+      uses: paambaati/codeclimate-action@v2.7.5
+      env:
+        CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
+      with:
+        coverageCommand: coverage run --source='src/pages/' tests/manage.py test && coverage report
+        debug: true
