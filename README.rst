@@ -4,6 +4,9 @@
 
 .. image:: https://codecov.io/gh/snake-soft/django-advanced-pages/branch/main/graph/badge.svg?token=X9MJQJBAEH
    :target: https://codecov.io/gh/snake-soft/django-advanced-pages
+
+.. image:: https://img.shields.io/badge/License-GPLv3-blue.svg
+   :target: https://www.gnu.org/licenses/gpl-3.0
     
 =====================
 Django advanced pages
