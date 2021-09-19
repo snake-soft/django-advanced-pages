@@ -1,3 +1,7 @@
+.. image:: https://api.codeclimate.com/v1/badges/cfd2071c8e13d1eab244/maintainability
+   :target: https://codeclimate.com/github/snake-soft/django-advanced-pages/maintainability
+   :alt: Maintainability
+
 =====================
 Django advanced pages
 =====================
