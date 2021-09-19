@@ -50,3 +50,5 @@ TEMPLATES = [
         },
     },
 ]
+
+ROOT_URLCONF = 'urls'

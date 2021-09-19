@@ -1,5 +1,2 @@
-# Linting
-isort>=5.9,<5.10
-flake8>=3.9,<3.10
+django>=2.2,<3.3
 coverage
-pytest
