@@ -1,3 +1,7 @@
+.. image:: https://github.com/snake-soft/django-advanced-pages/workflows/Django%20CI/badge.svg
+   :target: https://github.com/snake-soft/django-advanced-pages/actions
+   :alt: Build
+
 .. image:: https://api.codeclimate.com/v1/badges/cfd2071c8e13d1eab244/maintainability
    :target: https://codeclimate.com/github/snake-soft/django-advanced-pages/maintainability
    :alt: Maintainability
