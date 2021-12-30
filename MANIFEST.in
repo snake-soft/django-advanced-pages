@@ -1,3 +1,6 @@
 include *.md
 include LICENSE
+include VERSION
+include tests/*
 recursive-include src/pages/templates *.html
+recursive-include src/pages/fixtures *
