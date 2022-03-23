@@ -1,5 +1,7 @@
 from django.contrib import admin
 from django.contrib.flatpages.models import FlatPage
+from django.utils.translation import gettext_lazy as _
+from django.utils.safestring import mark_safe
 from .models import Page, Attachment
 
 
@@ -21,13 +23,25 @@ class FlatPageAdmin(admin.ModelAdmin):
         'content',
         'template_name',
         'registration_required',
+        'sites',
     ]
     list_display = (
         'title',
         'url',
         'registration_required',
         'page',
+        'get_sites',
     )
+    list_filter = (
+        'sites',
+        'registration_required',
+    )
+    filter_horizontal = ('sites',)
+
+    @admin.display(description=_('Sites'))
+    def get_sites(self, obj):
+        return mark_safe(
+            '<br>'.join([f'{x.name} ({x.domain})' for x in obj.sites.all()]))
 
 
 admin.site.unregister(FlatPage)

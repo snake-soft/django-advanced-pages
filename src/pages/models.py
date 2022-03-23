@@ -1,6 +1,8 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.contrib.flatpages.models import FlatPage
+from django.dispatch import receiver
+from django.db.models.signals import pre_save
 from .managers import PageManager
 
 
@@ -72,3 +74,11 @@ class Page(models.Model):
         ordering = ['category', 'priority']
         verbose_name = _('Categorized page')
         verbose_name_plural = _('Categorized pages')
+
+
+@receiver(pre_save, sender=FlatPage)
+def flatpage_pre_save(sender, instance, **kwargs):
+    if not instance.url.startswith('/'):
+        instance.url = '/' + instance.url
+    if not instance.url.endswith('/'):
+        instance.url += '/'
