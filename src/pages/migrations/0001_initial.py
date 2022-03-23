@@ -6,13 +6,6 @@ from django.db import migrations, models
 import django.db.models.deletion
 from django.core.management import call_command
 
-def create_initial_pages(apps, schema):
-    Site = apps.get_model('sites', 'Site')
-    Site.objects.get_or_create(id=1, defaults={'domain': 'localhost:8000', 'name': 'New Site'})
-    path = Path(__file__).parent.parent
-    path = os.path.join(path, 'fixtures', 'initial_pages.json')
-    call_command('loaddata', path, app_label='pages')
-
 
 class Migration(migrations.Migration):
 
@@ -49,5 +42,4 @@ class Migration(migrations.Migration):
                 'verbose_name_plural': 'Attachments',
             },
         ),
-        migrations.RunPython(create_initial_pages, migrations.RunPython.noop)
     ]
