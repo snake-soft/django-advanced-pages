@@ -52,3 +52,4 @@ TEMPLATES = [
 ]
 
 ROOT_URLCONF = 'urls'
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
