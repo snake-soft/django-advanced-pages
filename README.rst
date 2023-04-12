@@ -6,6 +6,10 @@
    :target: https://codeclimate.com/github/snake-soft/django-advanced-pages/maintainability
    :alt: Maintainability
 
+.. image:: https://api.codeclimate.com/v1/badges/cfd2071c8e13d1eab244/test_coverage
+   :target: https://codeclimate.com/github/snake-soft/django-advanced-pages/test_coverage
+   :alt: Test Coverage
+
 .. image:: https://codecov.io/gh/snake-soft/django-advanced-pages/branch/main/graph/badge.svg?token=X9MJQJBAEH
    :target: https://codecov.io/gh/snake-soft/django-advanced-pages
 
