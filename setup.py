@@ -12,6 +12,7 @@ tests_require = [
 
 setup(
     name='django-advanced-pages',
+    url='https://github.com/snake-soft/django-advanced-pages',
     version=__version__,
     author="Snake-Soft",
     author_email="info@snake-soft.com",
