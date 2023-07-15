@@ -4,7 +4,7 @@ from src.pages import __version__
 
 
 install_requires = [
-    'django>=3.0,<3.3',
+    'django>=3.0,<5',
 ]
 
 tests_require = [
